@@ -1,0 +1,23 @@
+[
+    {
+       "code":"anton.breslavskii",
+       "first_name":"Anton",
+       "last_name":"Breslavskii",
+       "roles":[
+          "account_manager",
+          "client_solutions_head"
+       ],
+       "hire_date":"2023-01-01",
+       "leave_date":null
+    },
+    {
+       "code":"byron.fowler",
+       "first_name":"Byron",
+       "last_name":"Fowler",
+       "roles":[
+          "account_manager"
+       ],
+       "hire_date":"2023-05-01",
+       "leave_date":null
+    }
+ ]
