@@ -1,7 +1,7 @@
 # What we have
 External system (Personio) is a common **source of truth** about employees and their roles.
 
-System has an REST API endpoint [/api/employees](xxx)
+System has an REST API endpoint [/api/employees](https://cdn.jsdelivr.net/gh/breslavsky/1c-test@v1.0.0/employees.json)
 
 ```json
 [
