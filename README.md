@@ -61,7 +61,7 @@ Create data processor **Employees Importer** for 1C with features:
 
 1. Code should be written only **in English.**
 2. Create **fork** of this repository.
-3. Write in `README.md` how to deploy solution to configuration.
+3. Write `DEPLOY.md` how to deploy solution to configuration.
 4. Send link to your pull request.
 
 # Reward
