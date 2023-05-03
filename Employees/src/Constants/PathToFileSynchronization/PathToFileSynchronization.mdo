@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bcb67dc-b383-4f38-b167-30618ba1db38">
+  <producedTypes>
+    <managerType typeId="e4058a96-2b28-493d-8f8e-292f211a73c0" valueTypeId="c4155ec9-3964-4358-bc19-e91fffa2809c"/>
+    <valueManagerType typeId="aecd99d4-699c-43b7-ae11-94afbbdcd95a" valueTypeId="3f3894e9-7091-47b8-bc1b-7384aa06a3f6"/>
+    <valueKeyType typeId="480f542f-7f30-422f-9753-dffccda2c842" valueTypeId="40151da0-d19a-4de1-81d4-061c199a62c3"/>
+  </producedTypes>
+  <name>PathToFileSynchronization</name>
+  <synonym>
+    <key>en</key>
+    <value>Path to file synchronization</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

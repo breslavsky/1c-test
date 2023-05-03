@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f9bf35-dc84-4e22-8433-84f02ed66408">
+  <name>FinanceDirector</name>
+  <synonym>
+    <key>en</key>
+    <value>Finance director</value>
+  </synonym>
+</mdclass:Role>

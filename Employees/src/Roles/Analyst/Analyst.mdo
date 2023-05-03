@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95ad7aac-b114-4be2-a718-c2695d4b42f0">
+  <name>Analyst</name>
+  <synonym>
+    <key>en</key>
+    <value>Analyst</value>
+  </synonym>
+</mdclass:Role>

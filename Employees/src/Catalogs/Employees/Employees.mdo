@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b59fd29-6d68-4b2c-839c-9801a30cc7b9">
+  <producedTypes>
+    <objectType typeId="30f8c312-a3a5-4fc1-b261-f88d7c7c2edd" valueTypeId="1d2b570c-0d71-43f0-a049-c36e6de18346"/>
+    <refType typeId="b906527a-6afd-48a5-a7e9-f134c90c1677" valueTypeId="b3838b9b-703f-4589-b1dd-77d324b9a0e8"/>
+    <selectionType typeId="424cadda-f819-4bf1-89ec-6af58e2a320a" valueTypeId="0fc5863b-9df5-4b26-9d7f-45bb28667a48"/>
+    <listType typeId="9d4229fa-a474-430d-9743-2f9410997a5f" valueTypeId="641403f9-2dbb-4598-99db-846cbceb0095"/>
+    <managerType typeId="e8f73968-dd49-4db5-a98f-92360ee62b07" valueTypeId="dcb2f3ce-65b5-49bb-9ffc-d6069a968208"/>
+  </producedTypes>
+  <name>Employees</name>
+  <synonym>
+    <key>en</key>
+    <value>Employees</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Employees.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Employees.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>30</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1fa80997-80a0-43f7-9652-8835524c4e31">
+    <name>FirstName</name>
+    <synonym>
+      <key>en</key>
+      <value>First name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="302bba1e-55fb-4380-84fb-c4bc0e06b43b">
+    <name>LastName</name>
+    <synonym>
+      <key>en</key>
+      <value>Last name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d612db24-9235-4d8d-a233-f9a14c5bc56c">
+    <name>HireDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Hire date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c19b3ac-928b-498d-b6b7-1f832a7c5dd2">
+    <name>LeaveDate</name>
+    <synonym>
+      <key>en</key>
+      <value>Leave date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="13f86c54-1efe-47b8-99c4-168e4119ef77">
+    <producedTypes>
+      <objectType typeId="b8596106-59fa-4d75-bc72-c20343020fb4" valueTypeId="51122f95-0882-487e-b066-ade8f37f680c"/>
+      <rowType typeId="92d7dc69-826c-49e8-9aad-8b95fb53d0bf" valueTypeId="93510ef0-643b-4404-944c-c10ce06ee4ef"/>
+    </producedTypes>
+    <name>Roles</name>
+    <synonym>
+      <key>en</key>
+      <value>Roles</value>
+    </synonym>
+    <attributes uuid="6ee2d3d9-b202-4918-9cf3-828329a87ee0">
+      <name>Role</name>
+      <synonym>
+        <key>en</key>
+        <value>Role</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

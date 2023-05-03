@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6779fb2f-5c43-4bfa-9537-944cdaf20606">
+  <name>SetParametersSync</name>
+  <synonym>
+    <key>en</key>
+    <value>Set parameters sync</value>
+  </synonym>
+  <group>ActionsPanelTools</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>
