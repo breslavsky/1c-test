@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="358a740a-ce3c-4bcd-b24b-ab8172cfa6e9">
+  <name>Employees</name>
+  <synonym>
+    <key>en</key>
+    <value>Employees</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.SetParametersSync</content>
+  <content>InformationRegister.RegistrationData</content>
+  <content>Catalog.Employees</content>
+</mdclass:Subsystem>

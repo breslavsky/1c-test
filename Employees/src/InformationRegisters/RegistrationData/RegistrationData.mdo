@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6925621c-f720-4acc-976a-295d2b56f2a9">
+  <producedTypes>
+    <selectionType typeId="0c258e67-068c-4ca5-a6e4-1e887aa85712" valueTypeId="f577ace0-c030-4aa2-973a-fe6abf2538ee"/>
+    <listType typeId="93f9ca70-25d2-4b43-a57e-8b758eb70dc1" valueTypeId="940980c7-86f3-4ccd-a307-ccf3b73b40de"/>
+    <managerType typeId="0d84c52e-a2f7-4ef2-bf02-5d3e99006fd2" valueTypeId="7e3c804e-ca12-4e13-bb92-cb624ba35e3a"/>
+    <recordSetType typeId="8844fda4-3026-471e-96d4-b57cc40a7009" valueTypeId="8f1fd20e-bf42-4c0a-869b-a32933abc21c"/>
+    <recordKeyType typeId="f8062b1d-7a84-44b5-a0ee-3e41a3a67659" valueTypeId="e896aa33-b7ca-414c-86e6-9466a891c6bc"/>
+    <recordType typeId="8bbd3bcf-8c28-499f-ab51-eb6acb88ea41" valueTypeId="946df271-604b-40c0-9268-5dddabc41f86"/>
+    <recordManagerType typeId="3eedbc4b-c906-4c07-be93-a57629aaad30" valueTypeId="744d8f3c-ef92-4880-b320-ded7f400b65a"/>
+  </producedTypes>
+  <name>RegistrationData</name>
+  <synonym>
+    <key>en</key>
+    <value>Registration data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.RegistrationData.Form.ListForm</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0fd2da96-caa0-409f-9e75-af0048d26a37">
+    <name>Password</name>
+    <synonym>
+      <key>en</key>
+      <value>Password</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="a9e8875f-5a23-4da0-9c64-e52a0570cf9c">
+    <name>TemporaryPassword</name>
+    <synonym>
+      <key>en</key>
+      <value>Temporary password</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="81f873c6-bf04-4bbb-b495-1e57cd95ad60">
+    <name>IsLeave</name>
+    <synonym>
+      <key>en</key>
+      <value>Is leave</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="631ffc0d-3351-42ab-81b1-870d6d28640b">
+    <name>Employee</name>
+    <synonym>
+      <key>en</key>
+      <value>Employee</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Employees</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="007c7d45-40c5-4c5d-8652-c1dedc4b2594">
+    <name>ListForm</name>
+    <synonym>
+      <key>en</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
