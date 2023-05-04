@@ -2,7 +2,7 @@
 
 1. Open an empty database 1C in **Designer**
 
-![Designer](https://raw.githubusercontent.com/HaninDenis/1c-test/main/img/1.png)
+![Designer](./img/1.png)
 
 2. Next, select **Configuration** and select **Restore Configuration in Files**
 
@@ -51,6 +51,14 @@
 
 ![Sync](./img/11.png)
 
-4. To use sync as scheduled task, set up a schedule
+4. To use sync as scheduled task, set up a **Schedule**
 
-![Sync](./img/12.png)
+![Schedule](./img/12.png)
+
+
+# Other
+
+Information about sync errors is saved in the **Event log**.
+Information about successful synchronization is saved in the **Log of synchronisation results**
+
+![Log of synchronisation results](./img/13.png)
