@@ -30,10 +30,12 @@
 		<Metadata name="Configuration.Employees.SessionModule" id="ca95b772-66a2-4976-aefe-b2950e328488.7" configVersion="d5e51eb9a24797428146b0e8584c925200000000"/>
 		<Metadata name="Constant.BlockScheduledJobs" id="9e48afd0-be5f-46fc-ac43-39c52b526963" configVersion="ea78cdd64d7b2641a300563936756c6100000000"/>
 		<Metadata name="Constant.ConnectionSettings" id="d5ac1d8d-a6b9-4b5a-a748-1c3bc298c0bf" configVersion="46f1d2d8df172b419eb2dd92e255b3f700000000"/>
-		<Metadata name="InformationRegister.LogOfSynchronisationResults" id="1cc2b3ce-0016-42b7-9122-df674595efc5" configVersion="ed98c9c4fa70c3478ac0a4a451493f8800000000">
+		<Metadata name="InformationRegister.LogOfSynchronisationResults" id="1cc2b3ce-0016-42b7-9122-df674595efc5" configVersion="1ec907fb333d5d459c08638e4d4576c600000000">
 			<Metadata name="InformationRegister.LogOfSynchronisationResults.Resource.Result" id="c498c843-7c82-4993-a246-cf62efb95f5b"/>
 			<Metadata name="InformationRegister.LogOfSynchronisationResults.Dimension.User" id="e3e96f77-698e-48ef-94a1-512f5a8bb592"/>
 		</Metadata>
+		<Metadata name="InformationRegister.LogOfSynchronisationResults.Form.RecordForm" id="50d4446a-c39e-4048-8ec4-34d13e530672" configVersion="1771135871543443a4aabe1cb95fe2bb00000000"/>
+		<Metadata name="InformationRegister.LogOfSynchronisationResults.Form.RecordForm.Form" id="50d4446a-c39e-4048-8ec4-34d13e530672.0" configVersion="7dd7fdc0d63fb1438fd30b0bff51fd1f00000000"/>
 		<Metadata name="InformationRegister.TemporaryPasswords" id="c7fa8801-5ac1-4cc5-ab7e-8adb3a8b6957" configVersion="425596df846f2f4090086394820c08ca00000000">
 			<Metadata name="InformationRegister.TemporaryPasswords.Dimension.User" id="00fbb04f-75cc-407a-be65-9dfd3980547e"/>
 			<Metadata name="InformationRegister.TemporaryPasswords.Resource.Password" id="596a2e26-6eac-4785-9e68-311b3ef6cf96"/>
