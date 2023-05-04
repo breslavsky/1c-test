@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.15">
+	<ConfigVersions>
+		<Metadata name="Catalog.Users" id="8f62db19-51ad-4536-9e50-c422221ad872" configVersion="6431e3d30655134aaae690fa3307756000000000">
+			<Metadata name="Catalog.Users.Attribute.LeaveDate" id="392500e3-7780-41b9-9981-1cf8038ed199"/>
+			<Metadata name="Catalog.Users.Attribute.FirstName" id="4434e761-c826-46b8-b33b-a80666df7511"/>
+			<Metadata name="Catalog.Users.Attribute.HireDate" id="5b3cc9c2-b0fa-4516-b47e-d09ff739273a"/>
+			<Metadata name="Catalog.Users.Attribute.LastName" id="a441dee1-1a12-48fd-b8ea-e980344c7a19"/>
+			<Metadata name="Catalog.Users.Attribute.IBUserID" id="e9ae65e4-e6f3-4111-bd7b-9db53bbc83b9"/>
+		</Metadata>
+		<Metadata name="Catalog.Users.Form.ItemForm" id="71e9b18d-416e-4764-b949-348becd2d3e6" configVersion="65de07ecf43e56428cd89c056f2062fe00000000"/>
+		<Metadata name="Catalog.Users.Form.ItemForm.Form" id="71e9b18d-416e-4764-b949-348becd2d3e6.0" configVersion="b9284715521a514ab0835d71be6bf75000000000"/>
+		<Metadata name="Catalog.Users.ObjectModule" id="8f62db19-51ad-4536-9e50-c422221ad872.0" configVersion="cc14079ff52c8f49b2c3d2629616353600000000"/>
+		<Metadata name="CommonForm.ChangePassword" id="63ae3990-ac36-4eb6-9e63-f1eeb7ee80e8" configVersion="7f43e723306f2c4ea213fc339c8587e800000000"/>
+		<Metadata name="CommonForm.ChangePassword.Form" id="63ae3990-ac36-4eb6-9e63-f1eeb7ee80e8.0" configVersion="ec15b07e21193445a6692d5f6d15c13e00000000"/>
+		<Metadata name="CommonForm.Settings" id="31cfc325-8951-4ff3-a475-02b9f3242db7" configVersion="27aaeb88f504e34aa7e549fe5eb56c7600000000"/>
+		<Metadata name="CommonForm.Settings.Form" id="31cfc325-8951-4ff3-a475-02b9f3242db7.0" configVersion="b96d2a208225e844851901ebe304f62000000000"/>
+		<Metadata name="CommonModule.Common" id="75d5341b-1203-40a6-9e5b-89f99c1a70b1" configVersion="42f62384aa47f2409387ea2e683f709c00000000"/>
+		<Metadata name="CommonModule.Common.Module" id="75d5341b-1203-40a6-9e5b-89f99c1a70b1.0" configVersion="96b6e329152d7b4dbe6a09d5a00b3d6400000000"/>
+		<Metadata name="CommonModule.ScheduledJobsModule" id="58094d55-3d35-4d2c-8489-92df1625a892" configVersion="7be45f7f0cf4f44bad7496cdb4d2e7a700000000"/>
+		<Metadata name="CommonModule.ScheduledJobsModule.Module" id="58094d55-3d35-4d2c-8489-92df1625a892.0" configVersion="7d623296f2e9f24982f9e64b63f1d96f00000000"/>
+		<Metadata name="CommonModule.UserClient" id="79311fea-e3ce-4fc6-bbcc-649ba377d78b" configVersion="bd657037df2e39419d96526fd5ade84000000000"/>
+		<Metadata name="CommonModule.UserClient.Module" id="79311fea-e3ce-4fc6-bbcc-649ba377d78b.0" configVersion="182dc20a939f93409cc1da80a0b44f6700000000"/>
+		<Metadata name="CommonModule.Users" id="f51ba228-d168-4fd9-921f-5a29bc1cb7d9" configVersion="540180dfdcf60f45a26174002661191b00000000"/>
+		<Metadata name="CommonModule.Users.Module" id="f51ba228-d168-4fd9-921f-5a29bc1cb7d9.0" configVersion="fd6a55760d88c44f80f5661d04c4817a00000000"/>
+		<Metadata name="Configuration.Employees" id="d9478820-2a2a-4a22-9356-30f71fd3283d" configVersion="f481e6050167674b96964a8c6e0e864f00000000"/>
+		<Metadata name="Configuration.Employees.ExternalConnectionModule" id="ca95b772-66a2-4976-aefe-b2950e328488.5" configVersion="988e6797943e034f8c79647ca61e828300000000"/>
+		<Metadata name="Configuration.Employees.ManagedApplicationModule" id="ca95b772-66a2-4976-aefe-b2950e328488.6" configVersion="007f29c2c797bc48a6e2b797e48f727900000000"/>
+		<Metadata name="Configuration.Employees.OrdinaryApplicationModule" id="ca95b772-66a2-4976-aefe-b2950e328488.0" configVersion="71c863a7ff73ff49a349790bc93743b500000000"/>
+		<Metadata name="Configuration.Employees.SessionModule" id="ca95b772-66a2-4976-aefe-b2950e328488.7" configVersion="d5e51eb9a24797428146b0e8584c925200000000"/>
+		<Metadata name="Constant.BlockScheduledJobs" id="9e48afd0-be5f-46fc-ac43-39c52b526963" configVersion="ea78cdd64d7b2641a300563936756c6100000000"/>
+		<Metadata name="Constant.ConnectionSettings" id="d5ac1d8d-a6b9-4b5a-a748-1c3bc298c0bf" configVersion="46f1d2d8df172b419eb2dd92e255b3f700000000"/>
+		<Metadata name="InformationRegister.LogOfSynchronisationResults" id="1cc2b3ce-0016-42b7-9122-df674595efc5" configVersion="1ec907fb333d5d459c08638e4d4576c600000000">
+			<Metadata name="InformationRegister.LogOfSynchronisationResults.Resource.Result" id="c498c843-7c82-4993-a246-cf62efb95f5b"/>
+			<Metadata name="InformationRegister.LogOfSynchronisationResults.Dimension.User" id="e3e96f77-698e-48ef-94a1-512f5a8bb592"/>
+		</Metadata>
+		<Metadata name="InformationRegister.LogOfSynchronisationResults.Form.RecordForm" id="50d4446a-c39e-4048-8ec4-34d13e530672" configVersion="1771135871543443a4aabe1cb95fe2bb00000000"/>
+		<Metadata name="InformationRegister.LogOfSynchronisationResults.Form.RecordForm.Form" id="50d4446a-c39e-4048-8ec4-34d13e530672.0" configVersion="7dd7fdc0d63fb1438fd30b0bff51fd1f00000000"/>
+		<Metadata name="InformationRegister.TemporaryPasswords" id="c7fa8801-5ac1-4cc5-ab7e-8adb3a8b6957" configVersion="425596df846f2f4090086394820c08ca00000000">
+			<Metadata name="InformationRegister.TemporaryPasswords.Dimension.User" id="00fbb04f-75cc-407a-be65-9dfd3980547e"/>
+			<Metadata name="InformationRegister.TemporaryPasswords.Resource.Password" id="596a2e26-6eac-4785-9e68-311b3ef6cf96"/>
+		</Metadata>
+		<Metadata name="InformationRegister.TemporaryPasswords.Form.ListForm" id="a57bb337-07af-489c-be2b-af5b7c7064d7" configVersion="5d34f340d167c843809dcc3a5817e26100000000"/>
+		<Metadata name="InformationRegister.TemporaryPasswords.Form.ListForm.Form" id="a57bb337-07af-489c-be2b-af5b7c7064d7.0" configVersion="a2bfdd9b3fdf8b4c8f3320325d12389f00000000"/>
+		<Metadata name="Language.Русский" id="b8c045ba-6470-4b0c-ac2d-c81f13fb337b" configVersion="6975af4dcacdb84ca384fd8030a1383f00000000"/>
+		<Metadata name="Role.AccountManager" id="63f65f00-cf3d-46ce-a4a8-fddeb7aef50a" configVersion="d552c06085b65645a681a50c4b3e0cc000000000"/>
+		<Metadata name="Role.AccountManager.Rights" id="63f65f00-cf3d-46ce-a4a8-fddeb7aef50a.0" configVersion="a9b487044f6408439a8a0c41cf0917ec00000000"/>
+		<Metadata name="Role.Accounter" id="006dadbe-bd3f-4a16-9f48-e6c1f89012b3" configVersion="1585faf4f9c5f84698fdf43421708b0f00000000"/>
+		<Metadata name="Role.Accounter.Rights" id="006dadbe-bd3f-4a16-9f48-e6c1f89012b3.0" configVersion="485034ebdde74842ad444bfddb8a982e00000000"/>
+		<Metadata name="Role.Analyst" id="19a3bc5a-9427-4640-b906-427b8a0c60c2" configVersion="96667c08b469e046bff4e5cb6bf5bff600000000"/>
+		<Metadata name="Role.Analyst.Rights" id="19a3bc5a-9427-4640-b906-427b8a0c60c2.0" configVersion="f15f6f36a022f8459392877072f4b7df00000000"/>
+		<Metadata name="Role.ContentManager" id="a37d7aed-d19c-4cf8-b338-c04f2a2067cc" configVersion="1fc56ee9a543ad41b0376c02c47cfab000000000"/>
+		<Metadata name="Role.ContentManager.Rights" id="a37d7aed-d19c-4cf8-b338-c04f2a2067cc.0" configVersion="215e08d3cfd7784db4db0bdc41f50d7c00000000"/>
+		<Metadata name="Role.FinanceDirector" id="769ba120-c313-4163-9ea0-1642f411cd96" configVersion="17200f27d7c023499cd52b60dbd9bbd200000000"/>
+		<Metadata name="Role.FinanceDirector.Rights" id="769ba120-c313-4163-9ea0-1642f411cd96.0" configVersion="54f74c687bc82243be61eb353ec964ac00000000"/>
+		<Metadata name="Role.FullAccess" id="5e8b8d70-59a5-4530-b16e-3f5ab4639199" configVersion="d492e9a73f86d749ac69105c9d29fde400000000"/>
+		<Metadata name="Role.FullAccess.Rights" id="5e8b8d70-59a5-4530-b16e-3f5ab4639199.0" configVersion="4bc241224cd9ff4aa71c7680e2a144e400000000"/>
+		<Metadata name="Role.HeadOfClientSolutions" id="a9ff0d56-2e02-4fcc-9a6b-2e663d1e15ee" configVersion="8e2193c5aa075b47900ab5a927ae6d5900000000"/>
+		<Metadata name="Role.HeadOfClientSolutions.Rights" id="a9ff0d56-2e02-4fcc-9a6b-2e663d1e15ee.0" configVersion="44af5ad3f6c74341ba0fbbdb35c3fb6d00000000"/>
+		<Metadata name="Role.ProjectManager" id="6e04e933-9fdc-4e13-a542-171f712ab64f" configVersion="3a3e63f2a4b52e42961900934f7d570400000000"/>
+		<Metadata name="Role.ProjectManager.Rights" id="6e04e933-9fdc-4e13-a542-171f712ab64f.0" configVersion="e65a3c0f13ef7e4eb71cf1fa663a9ab400000000"/>
+		<Metadata name="ScheduledJob.SyncEmployees" id="a2b4bd51-a4c1-43cf-9730-79bfcb73a138" configVersion="6a8da0e82cffb741affc74eae1e945c900000000"/>
+		<Metadata name="SessionParameter.CurrentUser" id="6b36a305-f10f-443a-8d52-c090b062eba3" configVersion="5c06b3dc3af07640a55ed08ab96acdc100000000"/>
+		<Metadata name="Subsystem.Employees" id="647365cd-f506-41e0-9168-610939f18fc2" configVersion="8702aba827e2964985b9f16588bb68f700000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
