@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2d79765-3aff-482b-94aa-6b68b8bda148">
+  <producedTypes>
+    <managerType typeId="78c76101-de33-4a36-96bb-778972382850" valueTypeId="8fe19dc6-a677-4244-842b-4e7713f8d611"/>
+    <valueManagerType typeId="e9e6d025-e1fc-4ddb-9f24-75d9aed9acef" valueTypeId="1fdb5fc7-95bd-4e7c-9d2d-a59e2fe2c35a"/>
+    <valueKeyType typeId="9e979816-c6f1-4dd8-8c4c-6b8f43440068" valueTypeId="c418d0f2-d47f-4e9f-a14a-aa4cc21a87be"/>
+  </producedTypes>
+  <name>ServerData</name>
+  <synonym>
+    <key>en</key>
+    <value>Server data</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
