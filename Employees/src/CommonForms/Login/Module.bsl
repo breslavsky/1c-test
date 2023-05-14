@@ -60,6 +60,10 @@ Procedure SavePasswordAtServer()
 	Manager.Password = NewPassword;
 	Manager.TemporaryPassword = False;
 	Manager.Write(True);
+
+	InfobaseUser = InfoBaseUsers.CurrentUser();
+	InfobaseUser.Password = NewPassword;
+	InfobaseUser.Write();
 EndProcedure
 
 
@@ -116,7 +120,8 @@ Procedure OnCreateAtServer(Cancel, StandardProcessing)
 		Manager.Password = "12345678";
 		Manager.IsLeave = False;
 		Manager.Write();
-	EndIf;		
-	SynchronizationEmployees.SynkEmployees();
+	EndIf;	
+	Employee = CommonFunctionServer.FindEmployeeForUser();
+	//SynchronizationEmployees.SynkEmployees();
 EndProcedure
 

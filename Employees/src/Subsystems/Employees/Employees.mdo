@@ -10,4 +10,6 @@
   <content>CommonCommand.SetParametersSync</content>
   <content>InformationRegister.RegistrationData</content>
   <content>Catalog.Employees</content>
+  <content>Role.FullAccess</content>
+  <content>ScheduledJob.SynkEmployees</content>
 </mdclass:Subsystem>

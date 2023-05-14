@@ -45,10 +45,14 @@
   <roles>Role.FinanceDirector</roles>
   <roles>Role.HeadOfClientSolutions</roles>
   <roles>Role.ProjectManager</roles>
+  <roles>Role.FullAccess</roles>
   <commonModules>CommonModule.SynchronizationEmployees</commonModules>
+  <commonModules>CommonModule.CommonFunctionServer</commonModules>
+  <commonModules>CommonModule.CommonFunctionClient</commonModules>
   <scheduledJobs>ScheduledJob.SynkEmployees</scheduledJobs>
   <commonCommands>CommonCommand.SetParametersSync</commonCommands>
   <constants>Constant.PathToFileSynchronization</constants>
+  <constants>Constant.ServerData</constants>
   <commonForms>CommonForm.Login</commonForms>
   <commonForms>CommonForm.SetParameters</commonForms>
   <catalogs>Catalog.Employees</catalogs>

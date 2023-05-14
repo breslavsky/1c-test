@@ -3,6 +3,6 @@
   <name>ProjectManager</name>
   <synonym>
     <key>en</key>
-    <value>Project manager</value>
+    <value>project_manager</value>
   </synonym>
 </mdclass:Role>
